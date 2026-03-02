@@ -27,3 +27,5 @@ Takes an uncertain discrete time Markov Chain model (IDTMC) and constructs discr
 6. Run Markov chain Monte Carlo (MCMC) using GAL_MCMC.py. Replace "queries" with the desired queries and "titles" with the desired plot titles. This file runs the MCMC algorithms and plots the posterior density estimation. Results are printed to the console, but can also be written to a csv file by uncommenting "df.to_csv("GAL_MCMC_results.csv")".
 
 Citation: Sparks, Hailey, and Krishnendu Ghosh. "Statistical Inference and Temporal Logics on Pathway Models Using Interval Discrete-Time Markov Chain." In International Work-Conference on Bioinformatics and Biomedical Engineering, pp. 149-165. Cham: Springer Nature Switzerland, 2025.
+
+Acknowledgement: NSF CCF Award # 2227898 
